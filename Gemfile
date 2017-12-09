@@ -6,6 +6,7 @@ gem 'rails', '5.0.3'
 gem 'rack-cache'
 
 gem 'acts_as_list'
+gem 'audited', '~> 4.5'
 gem 'aws-sdk', '~> 2'
 gem 'bootstrap-will_paginate', '~> 0.0.10'
 gem "countries"
@@ -73,8 +74,8 @@ group :test do
   gem 'coveralls', require: false
   gem 'database_cleaner'
   gem 'factory_bot_rails'
-  gem 'rails-controller-testing'
   gem 'rack_session_access'
+  gem 'rails-controller-testing'
 end
 
 group :development do
